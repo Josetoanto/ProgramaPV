@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Space</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="image/internetLogo.png">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id = "AmbasColumnas">
+        <div id = "ColumnaPrincipal">
+            <h2 id = "tituloSesion">Inicio De Sesion</h2>
+            <h4 id = "inicioText">Email Addres</h4>
+            <input type= "text" id = "email" placeholder ="   Enter your username" >
+            <h4 id = "passwordText">Password</h4>
+            <input type= "password" id = "password" placeholder = "   Enter your password">
+            <div>&ensp;</div>
+            <button onClick = iniciarSesion() id = "entrarbtn">Entrar</button>
+            <h3 id="continue"> Continue with </h3>
+            <button id = "googlebtn">Iniciar sesion con Google <img  id = "googleIcon" src="image/google.png" alt=""></button>
+            <div>&ensp;</div>
+            <button id = "facebookbtn">Iniciar sesion con Facebook <img id = "facebookIcon" src="image/facebook.png" alt=""></button>
+            <h3 id = "pregunta">¿No tienes cuenta? <button onClick = "registrarseVentana()" id = "registrarse"> Registrate </button></h3>
+        </div>
+        <div id = "mujer"><img id = "mujer" src="image/mujer.png" alt=""></div>
+    </div>
+</body>
+</html>
